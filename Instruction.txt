@@ -1,0 +1,5 @@
+1. Скачать selenium standalone server и перенести его в проект
+2. Запустить команды:
+chmod +x selenium-server-standalone-version.jar
+java -jar selenium-server-standalone-vesion.jar -role hub
+java -jar selenium-server-standalone-verxion.jar -role node

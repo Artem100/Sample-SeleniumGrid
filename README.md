@@ -1,14 +1,18 @@
-# Sample-SeleniumGrid
-Sample SeleniumGrid for selenide
+# Sample-Selenium-Grid
+Sample Selenium-Grid for selenide
 
-
-1. Download *selenium standalone server* and replace file to project folder
-2. To launch SeleniumGrid server:
-````
+## To launch Selenium-Grid
+1. Download Selenium-Grid and move file to folder of project.
+2. Give permission as execute file for Selenium-Grid:
+```
 $ chmod +x selenium-server-standalone-version.jar
-````
-`````
+```
+3. Select server mode:<br />
+3.1 As hub:<br />
+```
 $ java -jar selenium-server-standalone-vesion.jar -role hub
-````
-$ java -jar selenium-server-standalone-verxion.jar -role nod
+```
+3.2 As node:
+```
+$ java -jar selenium-server-standalone-verxion.jar -role node
 ```
